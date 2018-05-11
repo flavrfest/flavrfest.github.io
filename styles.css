@@ -8,9 +8,11 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: #fa9393;
+  background: #ffe164;
+  color: #1e3746;
+/*  background: #fa9393; original */
 /*  background: #f5bbce;*/
-  color: #fff;
+/*  color: #fff;*/
 }
 
 .container {
@@ -34,8 +36,8 @@ html, body {
   position: relative;
   z-index: 1;
   text-decoration: none;
-  color: #fff;
-  font-size: 1.8em;
+/*  color: #fff;*/
+  font-size: 1.7em;
 }
 
 /* X - in menu */
@@ -43,6 +45,11 @@ html, body {
   position: absolute;
   top: 10px;
   right: 15px;
+  font-size: 1.3em;
+}
+
+.sidebar > ul, .sidebar > label {
+  color: #fff;
 }
 
 #sidebar-toggler {
